@@ -7,11 +7,13 @@ body{
 
 .container{
     display: flex;
+    width: auto;
 
 }
 .logo{
     margin-left: 20px;
 }
+
 .nvsname{
     font-size: 2rem;
     font-weight: bold;
@@ -19,18 +21,20 @@ body{
     padding-left: 40px;
     margin-top: 20px;
 }
+
 .tiranga{
     padding-left: 80px;
     margin-left: 100px;
 }
+
 .navbar{
-    width: auto;
+    width: 100%;
     display: flex;
 }
 
-li{
-    
+li{    
 }
+
 .contents{
     list-style-type:none;
     background-color: rgb(33, 4, 112);
@@ -42,11 +46,100 @@ li{
     font-weight: bold;
     
 }
+
 .contents:hover{
-background-color: rgb(209, 165, 22);
-transition: 200ms;
+background-color: rgb(68, 160, 62);
+transition: 300ms;
 }
 
 .list-items{
+    text-align: center;
+}
+
+/*footer*/
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color:rgb(33, 4, 112) ;
+}
+
+.image{
+    width: 20px;     
+}
+
+.footer{
+    width: 100%;
+    height:auto;
+    color: white;       
+}
+
+.call{
+    font-weight: bold;
+    width: auto;
+    padding-left:12px;
+    padding-top: 10px;
+    height: auto;
+    padding-top: 50px;
+    text-align: center;  
+}
+
+.number{
+    width: auto;
+    height: auto;
+    padding-left: 10px;
+    padding-bottom: 15px; 
+    text-align: center;  
+}
+
+.write{
+    font-weight: bold;
+    width: auto;
+    padding-left: 12px;
+    text-align: center;
+}
+
+.email{
+    padding-left: 12px;
+    text-align: center;
+}
+
+.follow{
+    font-weight: bold;
+    padding-left: 14px;
+    margin-top: 40px; 
+    margin-bottom: 20px; 
+    text-align: center; 
+}
+
+.follow-icon{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px; 
+}
+
+.image{
+    width: 20px;     
+}
+
+.image:hover{
+    background-color: rgb(68, 160, 62);
+    border-radius: 4px;
+}
+
+.social-icon{
+    padding: 1px;
+    height: 2;  
+}
+
+.icons{
+    text-align: center;
+}
+
+.copyright{
+    margin-top: 40px;
+    text-align: center;
+}
+
+.rights{
     text-align: center;
 }
