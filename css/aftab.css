@@ -64,8 +64,9 @@ height: 25px;
 }
 
 .contents:hover{
-background-color: rgb(68, 160, 62);
+background-color: rgb(84, 81, 224);
 transition: 300ms;
+color: black;
 }
 
 .list-items{
@@ -134,7 +135,7 @@ transition: 300ms;
 }
 
 .image:hover{
-    background-color: rgb(68, 160, 62);
+    background-color: rgb(246, 184, 13);
     border-radius: 4px;
 }
 
